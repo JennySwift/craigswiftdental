@@ -1,0 +1,35 @@
+.navbar {
+    .split-dropdown {
+        .no-dropdown {
+            padding-right: 0px;
+        }
+        .dropdown-toggle {
+            padding-left: 3px;
+        }
+    }
+
+}
+
+@mixin active {
+    color: #555;
+    background-color: #eeeeee;
+}
+
+//Override Bootstrap
+.navbar-default {
+    .navbar-nav {
+        > li > a:focus {
+            @include active;
+        }
+        //.split-dropdown.open {
+        //    > a, > a:hover, > a:focus {
+        //        background-color: inherit;
+        //    }
+        //}
+
+    }
+}
+
+.router-link-active {
+    @include active;
+}

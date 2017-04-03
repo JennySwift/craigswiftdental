@@ -8,6 +8,11 @@
 require('./bootstrap');
 require('./config');
 
+// window.VueRouter = require('vue-router');
+import VueRouter from 'vue-router'
+Vue.use(VueRouter);
+// window.router = new VueRouter({hashbang: false});
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -16,8 +21,14 @@ require('./config');
 
 Vue.component('navbar', require('./components/shared/NavbarComponent.vue'));
 
-const app = new Vue({
-    el: '#app'
+// const app = new Vue({
+//     el: '#app'
+// });
+
+var router = new VueRouter({
+    routes: require('./routes')
 });
 
-require('./routes');
+var app = new Vue({
+    router: router
+}).$mount('#app');
