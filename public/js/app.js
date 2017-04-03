@@ -41061,7 +41061,7 @@ module.exports = __webpack_require__(11);
 /* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = [{ path: '/get-to-know-us', component: __webpack_require__(58) }, { path: '/call-email-us', component: __webpack_require__(56) }, { path: '/faq', component: __webpack_require__(57) }, { path: '/the-best-technology', component: __webpack_require__(60) }, { path: '/you-are-the-boss', component: __webpack_require__(62) }, { path: '/how-can-we-help-you', component: __webpack_require__(59) }, { path: '/tips-demos-explanations', component: __webpack_require__(61) }];
+module.exports = [{ path: '/', component: __webpack_require__(77) }, { path: '/get-to-know-us', component: __webpack_require__(58) }, { path: '/call-email-us', component: __webpack_require__(56) }, { path: '/faq', component: __webpack_require__(57) }, { path: '/the-best-technology', component: __webpack_require__(60) }, { path: '/you-are-the-boss', component: __webpack_require__(62) }, { path: '/how-can-we-help-you', component: __webpack_require__(59) }, { path: '/tips-demos-explanations', component: __webpack_require__(61) }];
 
 /***/ }),
 /* 49 */
@@ -41201,7 +41201,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "navbar navbar-default"
   }, [_c('div', {
     staticClass: "container-fluid"
-  }, [_vm._m(0), _vm._v(" "), _c('div', {
+  }, [_c('div', {
+    staticClass: "navbar-header"
+  }, [_vm._m(0), _vm._v(" "), _c('router-link', {
+    staticClass: "navbar-brand",
+    attrs: {
+      "to": "/"
+    }
+  }, [_vm._v("Craig Swift Dental")])], 1), _vm._v(" "), _c('div', {
     staticClass: "collapse navbar-collapse",
     attrs: {
       "id": "navbar-collapse-1"
@@ -41258,9 +41265,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_vm._v("You're The Boss")])], 1)])])])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "navbar-header"
-  }, [_c('button', {
+  return _c('button', {
     staticClass: "navbar-toggle collapsed",
     attrs: {
       "type": "button",
@@ -41276,12 +41281,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "icon-bar"
   }), _vm._v(" "), _c('span', {
     staticClass: "icon-bar"
-  })]), _vm._v(" "), _c('a', {
-    staticClass: "navbar-brand",
-    attrs: {
-      "href": "#"
-    }
-  }, [_vm._v("Craig Swift Dental")])])
+  })])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('a', {
     staticClass: "dropdown-toggle",
@@ -43972,6 +43972,13 @@ if (false) {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 module.exports = {
     data: function data() {
@@ -43985,8 +43992,10 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('h1', [_vm._v("Get To Know Us")])
-},staticRenderFns: []}
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Get To Know Us")]), _vm._v(" "), _c('p', [_vm._v("I have been a dentist for over 36 years, and I consider it a privilege to have been caring for the dental needs of locals and not-so-locals for over 31 years.")]), _vm._v(" "), _c('p', [_vm._v("I enjoy helping people achieve optimal oral health, and understand this to be a team effort.")]), _vm._v(" "), _c('p', [_vm._v("Keeping up to date with new treatment options, clinical technology and materials is important to me. I am a problem-solver by nature, and I take satisfaction in making the best treatment options available to my patients - the same options I want for myself and my family.")]), _vm._v(" "), _c('p', [_vm._v("The friendly voice you will hear when you call to schedule an appointment or ask a question belongs to my wife of 34 years, Anita. Being a great team is one of the things that makes our work so enjoyable.")])])
+}]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
@@ -44116,6 +44125,76 @@ if (false) {
   module.hot.accept()
   if (module.hot.data) {
      require("vue-hot-reload-api").rerender("data-v-bcd27370", module.exports)
+  }
+}
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(76),
+  /* template */
+  __webpack_require__(78),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/HomeComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] HomeComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-52ef703a", Component.options)
+  } else {
+    hotAPI.reload("data-v-52ef703a", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 78 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Welcome!")]), _vm._v(" "), _c('p', [_vm._v("Dr Craig Swift - combining over 36 years of experience with the best of 21st century technology.")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-52ef703a", module.exports)
   }
 }
 

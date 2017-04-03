@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Craig Swift Dental</a>
+                <router-link to="/" class="navbar-brand">Craig Swift Dental</router-link>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

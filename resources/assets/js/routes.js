@@ -1,4 +1,5 @@
 module.exports = [
+    { path: '/', component: require('./components/pages/HomeComponent.vue') },
     { path: '/get-to-know-us', component: require('./components/pages/GetToKnowUsComponent.vue') },
     { path: '/call-email-us', component: require('./components/pages/CallEmailUsComponent.vue') },
     { path: '/faq', component: require('./components/pages/FAQComponent.vue') },
