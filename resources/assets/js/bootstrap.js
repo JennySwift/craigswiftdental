@@ -19,6 +19,10 @@ require('bootstrap-sass');
 
 window.Vue = require('vue');
 
+// window.VueRouter = require('vue-router');
+// Vue.use(VueRouter);
+// window.router = new VueRouter({hashbang: false});
+
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
@@ -28,7 +32,7 @@ window.Vue = require('vue');
 window.axios = require('axios');
 
 window.axios.defaults.headers.common = {
-    'X-CSRF-TOKEN': window.Laravel.csrfToken,
+    // 'X-CSRF-TOKEN': window.Laravel.csrfToken,
     'X-Requested-With': 'XMLHttpRequest'
 };
 
