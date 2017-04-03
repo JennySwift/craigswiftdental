@@ -6,6 +6,9 @@
         .dropdown-toggle {
             padding-left: 3px;
         }
+        > a {
+            display: inline-block !important;
+        }
     }
 
 }
