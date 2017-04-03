@@ -44149,6 +44149,28 @@ if (false) {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 module.exports = {
     data: function data() {
@@ -44162,8 +44184,10 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('h1', [_vm._v("You're The Boss")])
-},staticRenderFns: []}
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("You're The Boss")]), _vm._v(" "), _c('p', [_vm._v("Ultimately you are the boss of your mouth and I am here to serve you.You are a unique individual and your\n        mouth is unique to you.")]), _vm._v(" "), _c('p', [_vm._v("So, I will take care to treat your wishes with respect and explain the pros and cons of your treatment\n        options, so that together we can plan what is best for you and your mouth.")]), _vm._v(" "), _c('p', [_vm._v("I will take time to listen to your concerns.")]), _vm._v(" "), _c('p', [_vm._v("I welcome your questions - I actually enjoy answering them!")]), _vm._v(" "), _c('p', [_vm._v("Your satisfaction is my priority.")]), _vm._v(" "), _c('p', [_vm._v("My goal is minimally invasive dentistry, preserving tooth structure wherever possible, and carefully\n        considering long term outcomes.")]), _vm._v(" "), _c('p', [_vm._v("The best dentistry requires care, attention to detail and patience. A restoration done in a hurry without\n        proper attention to bonding technique, correct contours and smooth margins will only result in further\n        problems needing more work down the track. I find great satisfaction in doing dentistry that has a longer\n        than average lifespan because of the care I take and the time I spend showing my patients how to avoid\n        further problems.")])])
+}]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
