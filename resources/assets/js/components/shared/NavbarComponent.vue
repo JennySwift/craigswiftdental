@@ -36,7 +36,15 @@
                     <li class="dropdown split-dropdown">
                         <router-link to="/the-best-technology" class="no-dropdown">The Best Technology</router-link><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">One</a></li>
+                            <li><router-link to="/the-best-technology/operating-microscope">Operating Microscope</router-link></li>
+                            <li><router-link to="/the-best-technology/intraoral-camera">Intraoral Camera</router-link></li>
+                            <li><router-link to="/the-best-technology/digital-opg-and-cone-beam-ct">Digital OPG & Cone Beam CT</router-link></li>
+                            <li><router-link to="/the-best-technology/digital-intra-oral-x-rays">Digital Intra-oral X-rays</router-link></li>
+                            <li><router-link to="/the-best-technology/ozone">Ozone</router-link></li>
+                            <li><router-link to="/the-best-technology/laser">Laser</router-link></li>
+                            <li><router-link to="/the-best-technology/air-abrasion">Air Abrasion</router-link></li>
+                            <li><router-link to="/the-best-technology/sterilization-and-infection-control">Sterilization & Infection Control</router-link></li>
+                            <li><router-link to="/the-best-technology/duwls">DUWLs</router-link></li>
                         </ul>
                     </li>
                 </ul>

@@ -41061,7 +41061,7 @@ module.exports = __webpack_require__(11);
 /* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = [{ path: '/', component: __webpack_require__(77) }, { path: '/get-to-know-us', component: __webpack_require__(58) }, { path: '/call-email-us', component: __webpack_require__(56) }, { path: '/faq', component: __webpack_require__(57) }, { path: '/the-best-technology', component: __webpack_require__(60) }, { path: '/you-are-the-boss', component: __webpack_require__(62) }, { path: '/how-can-we-help-you', component: __webpack_require__(59) }, { path: '/tips-demos-explanations', component: __webpack_require__(61) }];
+module.exports = [{ path: '/', component: __webpack_require__(77) }, { path: '/get-to-know-us', component: __webpack_require__(58) }, { path: '/call-email-us', component: __webpack_require__(56) }, { path: '/faq', component: __webpack_require__(57) }, { path: '/the-best-technology', component: __webpack_require__(60) }, { path: '/the-best-technology/operating-microscope', component: __webpack_require__(80) }, { path: '/the-best-technology/intraoral-camera', component: __webpack_require__(83) }, { path: '/the-best-technology/digital-opg-and-cone-beam-ct', component: __webpack_require__(107) }, { path: '/the-best-technology/digital-intra-oral-x-rays', component: __webpack_require__(88) }, { path: '/the-best-technology/ozone', component: __webpack_require__(95) }, { path: '/the-best-technology/air-abrasion', component: __webpack_require__(98) }, { path: '/the-best-technology/sterilization-and-infection-control', component: __webpack_require__(101) }, { path: '/the-best-technology/laser', component: __webpack_require__(90) }, { path: '/the-best-technology/duwls', component: __webpack_require__(104) }, { path: '/you-are-the-boss', component: __webpack_require__(62) }, { path: '/how-can-we-help-you', component: __webpack_require__(59) }, { path: '/tips-demos-explanations', component: __webpack_require__(61) }];
 
 /***/ }),
 /* 49 */
@@ -41074,6 +41074,14 @@ Vue.config.debug = true;
 /* 51 */
 /***/ (function(module, exports) {
 
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -41231,7 +41239,45 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "to": "/the-best-technology"
     }
-  }, [_vm._v("The Best Technology")]), _vm._m(3), _vm._v(" "), _vm._m(4)], 1)]), _vm._v(" "), _c('ul', {
+  }, [_vm._v("The Best Technology")]), _vm._m(3), _vm._v(" "), _c('ul', {
+    staticClass: "dropdown-menu"
+  }, [_c('li', [_c('router-link', {
+    attrs: {
+      "to": "/the-best-technology/operating-microscope"
+    }
+  }, [_vm._v("Operating Microscope")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/the-best-technology/intraoral-camera"
+    }
+  }, [_vm._v("Intraoral Camera")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/the-best-technology/digital-opg-and-cone-beam-ct"
+    }
+  }, [_vm._v("Digital OPG & Cone Beam CT")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/the-best-technology/digital-intra-oral-x-rays"
+    }
+  }, [_vm._v("Digital Intra-oral X-rays")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/the-best-technology/ozone"
+    }
+  }, [_vm._v("Ozone")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/the-best-technology/laser"
+    }
+  }, [_vm._v("Laser")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/the-best-technology/air-abrasion"
+    }
+  }, [_vm._v("Air Abrasion")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/the-best-technology/sterilization-and-infection-control"
+    }
+  }, [_vm._v("Sterilization & Infection Control")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/the-best-technology/duwls"
+    }
+  }, [_vm._v("DUWLs")])], 1)])], 1)]), _vm._v(" "), _c('ul', {
     staticClass: "nav navbar-nav"
   }, [_c('li', {
     staticClass: "dropdown split-dropdown"
@@ -41240,7 +41286,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "to": "/how-can-we-help-you"
     }
-  }, [_vm._v("How Can We Help You")]), _vm._m(5), _vm._v(" "), _vm._m(6)], 1)]), _vm._v(" "), _c('ul', {
+  }, [_vm._v("How Can We Help You")]), _vm._m(4), _vm._v(" "), _vm._m(5)], 1)]), _vm._v(" "), _c('ul', {
     staticClass: "nav navbar-nav"
   }, [_c('li', {
     staticClass: "dropdown split-dropdown"
@@ -41249,7 +41295,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "to": "/tips-demos-explanations"
     }
-  }, [_vm._v("Tips, Demos & Explanations")]), _vm._m(7), _vm._v(" "), _vm._m(8)], 1)]), _vm._v(" "), _c('ul', {
+  }, [_vm._v("Tips, Demos & Explanations")]), _vm._m(6), _vm._v(" "), _vm._m(7)], 1)]), _vm._v(" "), _c('ul', {
     staticClass: "nav navbar-nav navbar-right"
   }, [_c('li', [_c('router-link', {
     attrs: {
@@ -41316,14 +41362,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('span', {
     staticClass: "caret"
   })])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('ul', {
-    staticClass: "dropdown-menu"
-  }, [_c('li', [_c('a', {
-    attrs: {
-      "href": "#"
-    }
-  }, [_vm._v("One")])])])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('a', {
     staticClass: "dropdown-toggle",
@@ -44043,6 +44081,10 @@ if (false) {
 //
 //
 //
+//
+//
+//
+//
 
 module.exports = {
     data: function data() {
@@ -44056,8 +44098,10 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('h1', [_vm._v("The Best Technology")])
-},staticRenderFns: []}
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("The Best Technology")]), _vm._v(" "), _c('p', [_vm._v("When we are not in the dental surgery we enjoy long walks together - getting our hearts pumping in the fresh air and glorious beauty of the Blue Mountains National Park.")])])
+}]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
@@ -44195,6 +44239,631 @@ if (false) {
   module.hot.accept()
   if (module.hot.data) {
      require("vue-hot-reload-api").rerender("data-v-52ef703a", module.exports)
+  }
+}
+
+/***/ }),
+/* 79 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 80 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(79),
+  /* template */
+  __webpack_require__(81),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/TheBestTechnology/OperatingMicroscopeComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] OperatingMicroscopeComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-2dd5ecae", Component.options)
+  } else {
+    hotAPI.reload("data-v-2dd5ecae", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 81 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Operating Microscope")]), _vm._v(" "), _c('p', [_vm._v("Many of my patients appreciate the opportunity to view their treatment via the camera attached to my operating microscope.")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-2dd5ecae", module.exports)
+  }
+}
+
+/***/ }),
+/* 82 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 83 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(82),
+  /* template */
+  __webpack_require__(84),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/TheBestTechnology/IntraoralCameraComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] IntraoralCameraComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-1c4614ee", Component.options)
+  } else {
+    hotAPI.reload("data-v-1c4614ee", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Intraoral Camera")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-1c4614ee", module.exports)
+  }
+}
+
+/***/ }),
+/* 85 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 86 */,
+/* 87 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 88 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(85),
+  /* template */
+  __webpack_require__(93),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/TheBestTechnology/DigitalIntraOralXraysComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] DigitalIntraOralXraysComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-b5baf5dc", Component.options)
+  } else {
+    hotAPI.reload("data-v-b5baf5dc", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 89 */,
+/* 90 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(87),
+  /* template */
+  __webpack_require__(91),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/TheBestTechnology/LaserComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] LaserComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-53656058", Component.options)
+  } else {
+    hotAPI.reload("data-v-53656058", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 91 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Laser")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-53656058", module.exports)
+  }
+}
+
+/***/ }),
+/* 92 */,
+/* 93 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Digital Intra-oral X-rays")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-b5baf5dc", module.exports)
+  }
+}
+
+/***/ }),
+/* 94 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 95 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(94),
+  /* template */
+  __webpack_require__(96),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/TheBestTechnology/OzoneComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] OzoneComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-2ec5ac04", Component.options)
+  } else {
+    hotAPI.reload("data-v-2ec5ac04", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 96 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Ozone")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-2ec5ac04", module.exports)
+  }
+}
+
+/***/ }),
+/* 97 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 98 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(97),
+  /* template */
+  __webpack_require__(99),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/TheBestTechnology/AirAbrasionComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] AirAbrasionComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-d37ddd20", Component.options)
+  } else {
+    hotAPI.reload("data-v-d37ddd20", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 99 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Air Abrasion")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-d37ddd20", module.exports)
+  }
+}
+
+/***/ }),
+/* 100 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 101 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(100),
+  /* template */
+  __webpack_require__(102),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/TheBestTechnology/Sterilization&InfectionControlComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] Sterilization&InfectionControlComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-344880a4", Component.options)
+  } else {
+    hotAPI.reload("data-v-344880a4", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 102 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Sterilization & Infection Control")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-344880a4", module.exports)
+  }
+}
+
+/***/ }),
+/* 103 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 104 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(103),
+  /* template */
+  __webpack_require__(105),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/TheBestTechnology/DUWLsComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] DUWLsComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-5943fbb2", Component.options)
+  } else {
+    hotAPI.reload("data-v-5943fbb2", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 105 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("DUWLs")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-5943fbb2", module.exports)
+  }
+}
+
+/***/ }),
+/* 106 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 107 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(106),
+  /* template */
+  __webpack_require__(108),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/TheBestTechnology/DigitalOPGAndConeBeamCTComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] DigitalOPGAndConeBeamCTComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-84a9841a", Component.options)
+  } else {
+    hotAPI.reload("data-v-84a9841a", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 108 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Digital OPG & Cone Beam CT")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-84a9841a", module.exports)
   }
 }
 
