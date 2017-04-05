@@ -39,6 +39,10 @@ module.exports = [
     { path: '/faq/fillings', component: require('./components/pages/FAQ/FillingsComponent.vue') },
     { path: '/faq/how-often-should-i-visit-the-dentist', component: require('./components/pages/FAQ/HowOftenShouldIVisitTheDentistComponent.vue') },
 
+    //Tips, Demos, & Explanations
+    { path: '/tips/how-to-brush', component: require('./components/pages/Tips/HowToBrushComponent.vue') },
+    { path: '/tips/how-to-clean-in-between-your-teeth', component: require('./components/pages/Tips/HowToCleanInBetweenYourTeethComponent.vue') },
+
 
     { path: '/you-are-the-boss', component: require('./components/pages/YouAreTheBossComponent.vue') },
     { path: '/how-can-we-help-you', component: require('./components/pages/HowCanWeHelpYouComponent.vue') },

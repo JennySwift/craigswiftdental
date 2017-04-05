@@ -79,7 +79,8 @@
                     <li class="dropdown split-dropdown">
                         <router-link to="/tips-demos-explanations" class="no-dropdown">Tips, Demos & Explanations</router-link><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">One</a></li>
+                            <li><router-link to="/tips/how-to-brush">How to brush</router-link></li>
+                            <li><router-link to="/tips/how-to-clean-in-between-your-teeth">How to clean in between your teeth</router-link></li>
                         </ul>
                     </li>
                 </ul>
