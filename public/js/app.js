@@ -44017,6 +44017,7 @@ if (false) {
 //
 //
 //
+//
 
 module.exports = {
     data: function data() {
@@ -44032,7 +44033,7 @@ module.exports = {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _vm._m(0)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('h1', [_vm._v("Get To Know Us")]), _vm._v(" "), _c('p', [_vm._v("I have been a dentist for over 36 years, and I consider it a privilege to have been caring for the dental needs of locals and not-so-locals for over 31 years.")]), _vm._v(" "), _c('p', [_vm._v("I enjoy helping people achieve optimal oral health, and understand this to be a team effort.")]), _vm._v(" "), _c('p', [_vm._v("Keeping up to date with new treatment options, clinical technology and materials is important to me. I am a problem-solver by nature, and I take satisfaction in making the best treatment options available to my patients - the same options I want for myself and my family.")]), _vm._v(" "), _c('p', [_vm._v("The friendly voice you will hear when you call to schedule an appointment or ask a question belongs to my wife of 34 years, Anita. Being a great team is one of the things that makes our work so enjoyable.")])])
+  return _c('div', [_c('h1', [_vm._v("Get To Know Us")]), _vm._v(" "), _c('p', [_vm._v("I have been a dentist for over 36 years, and I consider it a privilege to have been caring for the dental needs of locals and not-so-locals for over 31 years.")]), _vm._v(" "), _c('p', [_vm._v("I enjoy helping people achieve optimal oral health, and understand this to be a team effort.")]), _vm._v(" "), _c('p', [_vm._v("Keeping up to date with new treatment options, clinical technology and materials is important to me. I am a problem-solver by nature, and I take satisfaction in making the best treatment options available to my patients - the same options I want for myself and my family.")]), _vm._v(" "), _c('p', [_vm._v("The friendly voice you will hear when you call to schedule an appointment or ask a question belongs to my wife of 34 years, Anita. Being a great team is one of the things that makes our work so enjoyable.")]), _vm._v(" "), _c('p', [_vm._v("When we are not in the dental surgery we enjoy long walks together - getting our hearts pumping in the fresh air and glorious beauty of the Blue Mountains National Park.")])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
@@ -44084,7 +44085,6 @@ if (false) {
 //
 //
 //
-//
 
 module.exports = {
     data: function data() {
@@ -44100,7 +44100,7 @@ module.exports = {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _vm._m(0)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('h1', [_vm._v("The Best Technology")]), _vm._v(" "), _c('p', [_vm._v("When we are not in the dental surgery we enjoy long walks together - getting our hearts pumping in the fresh air and glorious beauty of the Blue Mountains National Park.")])])
+  return _c('div', [_c('h1', [_vm._v("The Best Technology")])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
