@@ -27,7 +27,13 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">One</a></li>
+                            <li><router-link to="/faq/root-canal-therapy">What is root canal therapy and when is it needed?</router-link></li>
+                            <li><router-link to="/faq/cracked-tooth">What are the options for a tooth that is cracked?</router-link></li>
+                            <li><router-link to="/faq/periodontal-disease">What is periodontal disease and how is it treated?</router-link></li>
+                            <li><router-link to="/faq/floss">Why do i need to floss or use interdental brushes?</router-link></li>
+                            <li><router-link to="/faq/wisdom-teeth">Does everyone need their wisdom teeth removed?</router-link></li>
+                            <li><router-link to="/faq/fillings">What are the differences between white fillings and silver fillings?</router-link></li>
+                            <li><router-link to="/faq/how-often-should-i-visit-the-dentist">How often should I visit the dentist?</router-link></li>
                         </ul>
                     </li>
                 </ul>

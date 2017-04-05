@@ -41067,7 +41067,10 @@ module.exports = [{ path: '/', component: __webpack_require__(77) }, { path: '/g
 { path: '/the-best-technology', component: __webpack_require__(60) }, { path: '/the-best-technology/operating-microscope', component: __webpack_require__(80) }, { path: '/the-best-technology/intraoral-camera', component: __webpack_require__(83) }, { path: '/the-best-technology/digital-opg-and-cone-beam-ct', component: __webpack_require__(107) }, { path: '/the-best-technology/digital-intra-oral-x-rays', component: __webpack_require__(88) }, { path: '/the-best-technology/ozone', component: __webpack_require__(95) }, { path: '/the-best-technology/air-abrasion', component: __webpack_require__(98) }, { path: '/the-best-technology/sterilization-and-infection-control', component: __webpack_require__(101) }, { path: '/the-best-technology/laser', component: __webpack_require__(90) }, { path: '/the-best-technology/duwls', component: __webpack_require__(104) },
 
 //How Can We Help You
-{ path: '/how-can-we-help-you/preventative', component: __webpack_require__(110) }, { path: '/how-can-we-help-you/restorative', component: __webpack_require__(113) }, { path: '/how-can-we-help-you/cosmetic', component: __webpack_require__(116) }, { path: '/how-can-we-help-you/endodontics', component: __webpack_require__(119) }, { path: '/how-can-we-help-you/periodontics', component: __webpack_require__(122) }, { path: '/how-can-we-help-you/implants', component: __webpack_require__(125) }, { path: '/how-can-we-help-you/dentures', component: __webpack_require__(128) }, { path: '/how-can-we-help-you/mouthguards', component: __webpack_require__(131) }, { path: '/how-can-we-help-you/spleep-appliances', component: __webpack_require__(134) }, { path: '/how-can-we-help-you/splints', component: __webpack_require__(137) }, { path: '/how-can-we-help-you/all-general-dentistry', component: __webpack_require__(140) }, { path: '/how-can-we-help-you/your-general-overall-health', component: __webpack_require__(143) }, { path: '/you-are-the-boss', component: __webpack_require__(62) }, { path: '/how-can-we-help-you', component: __webpack_require__(59) }, { path: '/tips-demos-explanations', component: __webpack_require__(61) }];
+{ path: '/how-can-we-help-you/preventative', component: __webpack_require__(110) }, { path: '/how-can-we-help-you/restorative', component: __webpack_require__(113) }, { path: '/how-can-we-help-you/cosmetic', component: __webpack_require__(116) }, { path: '/how-can-we-help-you/endodontics', component: __webpack_require__(119) }, { path: '/how-can-we-help-you/periodontics', component: __webpack_require__(122) }, { path: '/how-can-we-help-you/implants', component: __webpack_require__(125) }, { path: '/how-can-we-help-you/dentures', component: __webpack_require__(128) }, { path: '/how-can-we-help-you/mouthguards', component: __webpack_require__(131) }, { path: '/how-can-we-help-you/spleep-appliances', component: __webpack_require__(134) }, { path: '/how-can-we-help-you/splints', component: __webpack_require__(137) }, { path: '/how-can-we-help-you/all-general-dentistry', component: __webpack_require__(140) }, { path: '/how-can-we-help-you/your-general-overall-health', component: __webpack_require__(143) },
+
+//FAQ
+{ path: '/faq/root-canal-therapy', component: __webpack_require__(157) }, { path: '/faq/cracked-tooth', component: __webpack_require__(152) }, { path: '/faq/periodontal-disease', component: __webpack_require__(156) }, { path: '/faq/floss', component: __webpack_require__(154) }, { path: '/faq/wisdom-teeth', component: __webpack_require__(158) }, { path: '/faq/fillings', component: __webpack_require__(153) }, { path: '/faq/how-often-should-i-visit-the-dentist', component: __webpack_require__(155) }, { path: '/you-are-the-boss', component: __webpack_require__(62) }, { path: '/how-can-we-help-you', component: __webpack_require__(59) }, { path: '/tips-demos-explanations', component: __webpack_require__(61) }];
 
 /***/ }),
 /* 49 */
@@ -41080,6 +41083,12 @@ Vue.config.debug = true;
 /* 51 */
 /***/ (function(module, exports) {
 
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -41247,7 +41256,37 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "to": "/faq"
     }
-  }, [_vm._v("FAQ")]), _vm._m(1), _vm._v(" "), _vm._m(2)], 1)]), _vm._v(" "), _c('ul', {
+  }, [_vm._v("FAQ")]), _vm._m(1), _vm._v(" "), _c('ul', {
+    staticClass: "dropdown-menu"
+  }, [_c('li', [_c('router-link', {
+    attrs: {
+      "to": "/faq/root-canal-therapy"
+    }
+  }, [_vm._v("What is root canal therapy and when is it needed?")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/faq/cracked-tooth"
+    }
+  }, [_vm._v("What are the options for a tooth that is cracked?")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/faq/periodontal-disease"
+    }
+  }, [_vm._v("What is periodontal disease and how is it treated?")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/faq/floss"
+    }
+  }, [_vm._v("Why do i need to floss or use interdental brushes?")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/faq/wisdom-teeth"
+    }
+  }, [_vm._v("Does everyone need their wisdom teeth removed?")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/faq/fillings"
+    }
+  }, [_vm._v("What are the differences between white fillings and silver fillings?")])], 1), _vm._v(" "), _c('li', [_c('router-link', {
+    attrs: {
+      "to": "/faq/how-often-should-i-visit-the-dentist"
+    }
+  }, [_vm._v("How often should I visit the dentist?")])], 1)])], 1)]), _vm._v(" "), _c('ul', {
     staticClass: "nav navbar-nav"
   }, [_c('li', {
     staticClass: "dropdown split-dropdown"
@@ -41256,7 +41295,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "to": "/the-best-technology"
     }
-  }, [_vm._v("The Best Technology")]), _vm._m(3), _vm._v(" "), _c('ul', {
+  }, [_vm._v("The Best Technology")]), _vm._m(2), _vm._v(" "), _c('ul', {
     staticClass: "dropdown-menu"
   }, [_c('li', [_c('router-link', {
     attrs: {
@@ -41303,7 +41342,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "to": "/how-can-we-help-you"
     }
-  }, [_vm._v("How Can We Help You")]), _vm._m(4), _vm._v(" "), _c('ul', {
+  }, [_vm._v("How Can We Help You")]), _vm._m(3), _vm._v(" "), _c('ul', {
     staticClass: "dropdown-menu"
   }, [_c('li', [_c('router-link', {
     attrs: {
@@ -41362,7 +41401,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "to": "/tips-demos-explanations"
     }
-  }, [_vm._v("Tips, Demos & Explanations")]), _vm._m(5), _vm._v(" "), _vm._m(6)], 1)]), _vm._v(" "), _c('ul', {
+  }, [_vm._v("Tips, Demos & Explanations")]), _vm._m(4), _vm._v(" "), _vm._m(5)], 1)]), _vm._v(" "), _c('ul', {
     staticClass: "nav navbar-nav navbar-right"
   }, [_c('li', [_c('router-link', {
     attrs: {
@@ -41408,14 +41447,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('span', {
     staticClass: "caret"
   })])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('ul', {
-    staticClass: "dropdown-menu"
-  }, [_c('li', [_c('a', {
-    attrs: {
-      "href": "#"
-    }
-  }, [_vm._v("One")])])])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('a', {
     staticClass: "dropdown-toggle",
@@ -45775,6 +45806,489 @@ if (false) {
   module.hot.accept()
   if (module.hot.data) {
      require("vue-hot-reload-api").rerender("data-v-39e7d566", module.exports)
+  }
+}
+
+/***/ }),
+/* 145 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 146 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 147 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 148 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 149 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 150 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 151 */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+
+module.exports = {
+    data: function data() {
+        return {};
+    },
+    methods: {}
+};
+
+/***/ }),
+/* 152 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(145),
+  /* template */
+  __webpack_require__(159),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/FAQ/CrackedToothComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] CrackedToothComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-0bba50d1", Component.options)
+  } else {
+    hotAPI.reload("data-v-0bba50d1", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 153 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(146),
+  /* template */
+  __webpack_require__(160),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/FAQ/FillingsComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] FillingsComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-18d35c0c", Component.options)
+  } else {
+    hotAPI.reload("data-v-18d35c0c", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 154 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(147),
+  /* template */
+  __webpack_require__(164),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/FAQ/FlossComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] FlossComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-5c951f81", Component.options)
+  } else {
+    hotAPI.reload("data-v-5c951f81", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 155 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(148),
+  /* template */
+  __webpack_require__(163),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/FAQ/HowOftenShouldIVisitTheDentistComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] HowOftenShouldIVisitTheDentistComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-2d79bc3a", Component.options)
+  } else {
+    hotAPI.reload("data-v-2d79bc3a", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 156 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(149),
+  /* template */
+  __webpack_require__(162),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/FAQ/PeriodontalDiseaseComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] PeriodontalDiseaseComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-22341d83", Component.options)
+  } else {
+    hotAPI.reload("data-v-22341d83", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 157 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(150),
+  /* template */
+  __webpack_require__(161),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/FAQ/RootCanalTherapyComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] RootCanalTherapyComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-1f61f170", Component.options)
+  } else {
+    hotAPI.reload("data-v-1f61f170", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 158 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Component = __webpack_require__(35)(
+  /* script */
+  __webpack_require__(151),
+  /* template */
+  __webpack_require__(165),
+  /* scopeId */
+  null,
+  /* cssModules */
+  null
+)
+Component.options.__file = "/Users/2013/Projects/craigswiftdental/resources/assets/js/components/pages/FAQ/WisdomTeethComponent.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] WisdomTeethComponent.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-6058e4c3", Component.options)
+  } else {
+    hotAPI.reload("data-v-6058e4c3", Component.options)
+  }
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 159 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("What are the options for a tooth that is cracked?")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-0bba50d1", module.exports)
+  }
+}
+
+/***/ }),
+/* 160 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("What are the differences between white fillings and silver fillings?")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-18d35c0c", module.exports)
+  }
+}
+
+/***/ }),
+/* 161 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("What is root canal therapy and when is it needed?")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-1f61f170", module.exports)
+  }
+}
+
+/***/ }),
+/* 162 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("What is periodontal disease and how is it treated?")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-22341d83", module.exports)
+  }
+}
+
+/***/ }),
+/* 163 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("How often should I visit the dentist?")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-2d79bc3a", module.exports)
+  }
+}
+
+/***/ }),
+/* 164 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Why do i need to floss or use interdental brushes?")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-5c951f81", module.exports)
+  }
+}
+
+/***/ }),
+/* 165 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('h1', [_vm._v("Does everyone need their wisdom teeth removed?")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-6058e4c3", module.exports)
   }
 }
 

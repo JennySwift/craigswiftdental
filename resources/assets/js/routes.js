@@ -30,6 +30,15 @@ module.exports = [
     { path: '/how-can-we-help-you/all-general-dentistry', component: require('./components/pages/HowCanWeHelpYou/AllGeneralDentistryComponent.vue') },
     { path: '/how-can-we-help-you/your-general-overall-health', component: require('./components/pages/HowCanWeHelpYou/YourGeneralOverallHealthComponent.vue') },
 
+    //FAQ
+    { path: '/faq/root-canal-therapy', component: require('./components/pages/FAQ/RootCanalTherapyComponent.vue') },
+    { path: '/faq/cracked-tooth', component: require('./components/pages/FAQ/CrackedToothComponent.vue') },
+    { path: '/faq/periodontal-disease', component: require('./components/pages/FAQ/PeriodontalDiseaseComponent.vue') },
+    { path: '/faq/floss', component: require('./components/pages/FAQ/FlossComponent.vue') },
+    { path: '/faq/wisdom-teeth', component: require('./components/pages/FAQ/WisdomTeethComponent.vue') },
+    { path: '/faq/fillings', component: require('./components/pages/FAQ/FillingsComponent.vue') },
+    { path: '/faq/how-often-should-i-visit-the-dentist', component: require('./components/pages/FAQ/HowOftenShouldIVisitTheDentistComponent.vue') },
+
 
     { path: '/you-are-the-boss', component: require('./components/pages/YouAreTheBossComponent.vue') },
     { path: '/how-can-we-help-you', component: require('./components/pages/HowCanWeHelpYouComponent.vue') },
