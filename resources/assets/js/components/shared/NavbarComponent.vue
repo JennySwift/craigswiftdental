@@ -53,7 +53,18 @@
                     <li class="dropdown split-dropdown">
                         <router-link to="/how-can-we-help-you" class="no-dropdown">How Can We Help You</router-link><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">One</a></li>
+                            <li><router-link to="/how-can-we-help-you/preventative">Preventative</router-link></li>
+                            <li><router-link to="/how-can-we-help-you/restorative">Restorative</router-link></li>
+                            <li><router-link to="/how-can-we-help-you/cosmetic">Cosmetic</router-link></li>
+                            <li><router-link to="/how-can-we-help-you/endodontics">Endodontics</router-link></li>
+                            <li><router-link to="/how-can-we-help-you/periodontics">Periodontics</router-link></li>
+                            <li><router-link to="/how-can-we-help-you/implants">Implants</router-link></li>
+                            <li><router-link to="/how-can-we-help-you/dentures">Dentures</router-link></li>
+                            <li><router-link to="/how-can-we-help-you/mouthguards">Mouthguards</router-link></li>
+                            <li><router-link to="/how-can-we-help-you/spleep-appliances">Sleep Appliances</router-link></li>
+                            <li><router-link to="/how-can-we-help-you/splints">Splints</router-link></li>
+                            <li><router-link to="/how-can-we-help-you/all-general-dentistry">All General Dentistry</router-link></li>
+                            <li><router-link to="/how-can-we-help-you/your-general-overall-health">Your General/Overall Health</router-link></li>
                         </ul>
                     </li>
                 </ul>
