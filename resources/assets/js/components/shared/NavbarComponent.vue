@@ -92,6 +92,8 @@
                     <li><router-link to="/get-to-know-us">Get To Know Us</router-link></li>
                     <li><router-link to="/you-are-the-boss">You're The Boss</router-link></li>
 
+                    <li><a href="/logout">Logout</a></li>
+
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

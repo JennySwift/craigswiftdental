@@ -12991,6 +12991,8 @@ module.exports = {
 //
 //
 //
+//
+//
 
 //    require('bootstrap');
 
@@ -34347,7 +34349,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "to": "/you-are-the-boss"
     }
-  }, [_vm._v("You're The Boss")])], 1)])])])])
+  }, [_vm._v("You're The Boss")])], 1), _vm._v(" "), _vm._m(5)])])])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('button', {
     staticClass: "navbar-toggle collapsed",
@@ -34418,6 +34420,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('span', {
     staticClass: "caret"
   })])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('li', [_c('a', {
+    attrs: {
+      "href": "/logout"
+    }
+  }, [_vm._v("Logout")])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
