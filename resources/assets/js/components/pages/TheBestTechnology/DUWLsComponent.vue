@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>DUWLs</h1>
+        <h1>Water Quality from our Dental Unit</h1>
 
         <p>Studies have found that many dental practices world wide have water from their drills, scalers and air/water
             syringes that does not reach the standard of being as clean and safe as household tap water. This is because
