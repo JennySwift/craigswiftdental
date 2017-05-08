@@ -12619,6 +12619,20 @@ module.exports = {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 module.exports = {
     data: function data() {
@@ -34502,7 +34516,7 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _vm._m(0)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('h1', [_vm._v("DUWLs")])])
+  return _c('div', [_c('h1', [_vm._v("DUWLs")]), _vm._v(" "), _c('p', [_vm._v("Studies have found that many dental practices world wide have water from their drills, scalers and air/water\n        syringes that does not reach the standard of being as clean and safe as household tap water. This is because\n        the small tubing in the dental lines is prone to collecting germs.")]), _vm._v(" "), _c('p', [_vm._v("We have solved this problem by installing a state of the art system that purifies the water and effectively\n        kills germs through our own ozone generator.")]), _vm._v(" "), _c('p', [_vm._v("Ozone is now used widely for treatment of reticulated water and bottled water as an alternative to\n        traditional chemicals such as chlorine. The largest ozone water treatment plant in the world is in Los\n        Angeles and the largest in Australia is in Sydney. Ozone's germ killing ability is 2500 times greater than\n        chlorine and yet leaves no harmful chemicals because it breaks down to form oxygen.")]), _vm._v(" "), _c('p', [_vm._v("We regularly test the quality of our water and it is of the highest quality for purity and lack of\n        germs.")]), _vm._v(" "), _c('p', [_vm._v("Your health and safety during your visit is of utmost importance to us.")]), _vm._v(" "), _c('p', [_vm._v("Reference:")])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
