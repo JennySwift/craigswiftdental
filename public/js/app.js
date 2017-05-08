@@ -12655,6 +12655,14 @@ module.exports = {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 module.exports = {
     data: function data() {
@@ -34659,7 +34667,7 @@ if (false) {
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _vm._m(0)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('h1', [_vm._v("Digital OPG & Cone Beam CT")])])
+  return _c('div', [_c('h1', [_vm._v("Digital OPG & Cone Beam CT")]), _vm._v(" "), _c('p', [_vm._v("X-ray images and machines have advanced tremendously over recent years. Just like cameras, we are now able\n        to use digital technology rather than film. This has enabled the use of much lower doses of radiation to\n        obtain good quality images that can be enlarged and made easier for both patient and dentist to see.")]), _vm._v(" "), _c('p', [_vm._v("As well as our normal digital dental X-ray machine, we have a new state of the art digital 2D panoramic and\n        3D Cone Beam CT machine. This has helped enormously in such things as implants, root canal therapies, and\n        extractions, to see things that before were impossible and enable us to do the best, most accurate dentistry\n        possible.")]), _vm._v(" "), _c('p', [_vm._v("See magazine article.")])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
